@@ -5,46 +5,16 @@
   <parent>
     <groupId>org.mobicents</groupId>
     <artifactId>mobicents-parent</artifactId>
-    <version>2.5-SNAPSHOT</version>
+    <version>2.5</version>
   </parent>
 
   <groupId>org.mobicents.servers.diameter.tools</groupId>
   <artifactId>mobicents-diameter-jopr-plugin</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0.BETA2</version>
   <packaging>jar</packaging>
 
   <name>Jopr Mobicents Diameter Plugin for JBoss AS</name>
   <description>A plugin for managing Mobicents Diameter on JBoss Application Servers</description>
-  <repositories>
-    <repository>
-      <id>maven2-repository.dev.java.net</id>
-      <name>Java.net Repository for Maven</name>
-      <url>http://download.java.net/maven/2/</url>
-      <layout>default</layout>
-    </repository>
-    <repository>
-      <id>JbossRepository</id>
-      <name>Jboss Repository</name>
-      <url>http://repository.jboss.org/maven2</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-    </repository>
-    <repository>
-      <id>jboss-snapshots</id>
-      <name>JBoss Snapshot Repository</name>
-      <url>http://snapshots.jboss.org/maven2</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
 
   <properties>
     <rhq.groupId>org.rhq</rhq.groupId>
@@ -52,8 +22,8 @@
     <jbossas.version>5.1.0.GA</jbossas.version>
     <jopr-version>2.2.0.GA</jopr-version>
     <rhq-version>1.4.0.B01</rhq-version>
-    <mobicents.jdiameter.version>1.5.3.1-build353-SNAPSHOT</mobicents.jdiameter.version>
-    <mobicents.diameter.version>1.2.1.GA-SNAPSHOT</mobicents.diameter.version>
+    <mobicents.jdiameter.version>1.5.3.1-build353</mobicents.jdiameter.version>
+    <mobicents.diameter.version>1.2.1.GA</mobicents.diameter.version>
     <getopt.version>1.0.13</getopt.version>
   </properties>
 
@@ -289,9 +259,9 @@
   </profiles>
 
   <scm>
-    <connection>scm:svn:https://mobicents.googlecode.com/svn/trunk/servers/diameter/tools/jopr-plugin</connection>
-    <developerConnection>scm:svn:https://mobicents.googlecode.com/svn/trunk/servers/diameter/tools/jopr-plugin</developerConnection>
-    <url>http://mobicents.googlecode.com/svn/trunk/servers/diameter/tools/jopr-plugin</url>
+    <connection>scm:svn:https://mobicents.googlecode.com/svn/tags/servers/diameter/tools/jopr-plugin/mobicents-diameter-jopr-plugin-1.0.0.BETA2</connection>
+    <developerConnection>scm:svn:https://mobicents.googlecode.com/svn/tags/servers/diameter/tools/jopr-plugin/mobicents-diameter-jopr-plugin-1.0.0.BETA2</developerConnection>
+    <url>http://mobicents.googlecode.com/svn/tags/servers/diameter/tools/jopr-plugin/mobicents-diameter-jopr-plugin-1.0.0.BETA2</url>
   </scm>
   
   <build>
