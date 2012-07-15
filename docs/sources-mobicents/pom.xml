@@ -4,17 +4,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
-		<groupId>org.mobicents.servers.diameter.tools</groupId>
-		<artifactId>mobicents-diameter-jopr-plugin-docs</artifactId>
+		<groupId>org.mobicents.diameter.tools</groupId>
+		<artifactId>rhq-plugin-docs</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>mobicents-diameter-jopr-plugin-docs-sources-mobicents</artifactId>	
+	<artifactId>rhq-plugin-docs-sources-mobicents</artifactId>	
 			
 	<properties>
 		<THIS.PLATFORM>Mobicents</THIS.PLATFORM>
 		<JEE.PLATFORM>JBoss Application Server</JEE.PLATFORM>
-		<MANAGEMENT.PLATFORM>Jopr</MANAGEMENT.PLATFORM>
+		<MANAGEMENT.PLATFORM>RHQ</MANAGEMENT.PLATFORM>
 		<author.email.alexandre>brainslog (at) gmail.com</author.email.alexandre>
 		<THIS.PLATFORM.INSTALL_SECTION>Section-Install_Mobicents.xml</THIS.PLATFORM.INSTALL_SECTION>
 	</properties>
@@ -41,7 +41,7 @@
 							<artifactItems>
 								<artifactItem>
 									<groupId>${pom.groupId}</groupId>
-									<artifactId>mobicents-diameter-jopr-plugin-docs-sources</artifactId>
+									<artifactId>rhq-plugin-docs-sources</artifactId>
 									<version>${pom.version}</version>
 									<type>jar</type>
 									<overWrite>true</overWrite>

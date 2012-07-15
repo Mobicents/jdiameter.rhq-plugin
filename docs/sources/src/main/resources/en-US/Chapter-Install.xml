@@ -130,7 +130,7 @@
 								<title>Accessing Download Menu</title>
 								<mediaobject>
 									<imageobject>
-										<imagedata scalefit="1" width="100%" contentdepth="100%" fileref="images/img-jopr_download_menu.png" format="PNG"/>
+										<imagedata scalefit="1" width="100%" contentdepth="100%" fileref="images/img-rhq_download_menu.png" format="PNG"/>
 									</imageobject>
 									<textobject>
 										<para>Accessing Download Menu</para>
@@ -177,7 +177,7 @@
 							<title>Accessing Plugins Menu</title>
 							<mediaobject>
 								<imageobject>
-									<imagedata scalefit="1" width="100%" contentdepth="100%" fileref="images/img-jopr_plugins_menu.png" format="PNG"/>
+									<imagedata scalefit="1" width="100%" contentdepth="100%" fileref="images/img-rhq_plugins_menu.png" format="PNG"/>
 								</imageobject>
 								<textobject>
 									<para>Accessing Plugins Menu</para>
@@ -191,7 +191,7 @@
 							<title>Uploading Plugin</title>
 							<mediaobject>
 								<imageobject>
-									<imagedata scalefit="1" width="100%" contentdepth="100%" fileref="images/img-jopr_upload_plugin.png" format="PNG"/>
+									<imagedata scalefit="1" width="100%" contentdepth="100%" fileref="images/img-rhq_upload_plugin.png" format="PNG"/>
 								</imageobject>
 								<textobject>
 									<para>Uploading Plugin</para>
@@ -215,7 +215,7 @@
 								<para>Stop the &MANAGEMENT.PLATFORM; server and agent if they are running.</para>
 							</listitem>
 							<listitem>
-								<para>Copy the mobicents-diameter-jopr-plugin-<emphasis>&lt;version&gt;</emphasis>.jar to the jopr-server/jbossas/server/default/deploy/rhq.ear/rhq-downloads/rhq-plugins/ directory, and it will be automatically deployed.</para>
+								<para>Copy the mobicents-diameter-rhq-plugin-<emphasis>&lt;version&gt;</emphasis>.jar to the rhq-server/jbossas/server/default/deploy/rhq.ear/rhq-downloads/rhq-plugins/ directory, and it will be automatically deployed.</para>
 							</listitem>
 							<listitem>
 								<para>Start the &MANAGEMENT.PLATFORM; server.</para>
@@ -233,7 +233,7 @@
 				<title>Accessing Auto Discovery Queue Menu</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata scalefit="1" width="100%" contentdepth="100%" fileref="images/img-jopr_auto_discovery_menu.png" format="PNG"/>
+						<imagedata scalefit="1" width="100%" contentdepth="100%" fileref="images/img-rhq_auto_discovery_menu.png" format="PNG"/>
 					</imageobject>
 					<textobject>
 						<para>Accessing Auto Discovery Queue Menu</para>
@@ -249,7 +249,7 @@
 
 			<warning>
 				<title>&THIS.PLATFORM; Diameter not showing in Auto Discovery?</title>
-				<para>If the &THIS.PLATFORM; Diameter is running but not shown in the list, issue the following commands in th Jopr Agent console:</para>
+				<para>If the &THIS.PLATFORM; Diameter is running but not shown in the list, issue the following commands in th RHQ Agent console:</para>
 				<screen>&gt; plugins update
 ...
 
@@ -263,7 +263,7 @@
 				<title>Selecting the server to be imported into &MANAGEMENT.PLATFORM;.</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata scalefit="1" width="100%" contentdepth="100%" fileref="images/img-jopr_import_resources.png" format="PNG"/>
+						<imagedata scalefit="1" width="100%" contentdepth="100%" fileref="images/img-rhq_import_resources.png" format="PNG"/>
 					</imageobject>
 					<textobject>
 						<para>Selecting the server to be imported into &MANAGEMENT.PLATFORM;.</para>

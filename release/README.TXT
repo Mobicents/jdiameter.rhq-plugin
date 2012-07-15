@@ -1,8 +1,8 @@
-Mobicents JOPR Plugin for Mobicents Diameter Server
+Mobicents RHQ Plugin for Mobicents Diameter Server
 ====================================================
 
-This is the JOPR plugin for providing management and monitoring 
-for Mobicents Diameter under JBoss JOPR platform.
+This is the RHQ plugin for providing management and monitoring 
+for Mobicents Diameter under JBoss RHQ platform.
 
 How to use
 ----------
@@ -16,5 +16,5 @@ http://sourceforge.net/projects/rhq/files/
 
 Find installation instruction here: 
 
-http://community.jboss.org/wiki/Jopr-Installation
+https://docs.jboss.org/author/display/RHQ/Installation
 

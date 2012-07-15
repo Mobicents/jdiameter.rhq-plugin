@@ -4,18 +4,18 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
-		<groupId>org.mobicents.servers.diameter.tools</groupId>
-		<artifactId>mobicents-diameter-jopr-plugin-docs</artifactId>
+		<groupId>org.mobicents.diameter.tools</groupId>
+		<artifactId>rhq-plugin-docs</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>mobicents-diameter-jopr-plugin-docs-sources-jbcp</artifactId>
+	<artifactId>rhq-plugin-docs-sources-telscale</artifactId>
 			
 	<properties>
 		<THIS.PLATFORM>JBoss Communications</THIS.PLATFORM>
 		<JEE.PLATFORM>JBoss Enterprise Application Platform</JEE.PLATFORM>
 		<MANAGEMENT.PLATFORM>JBoss Operations Network</MANAGEMENT.PLATFORM>
-		<THIS.PLATFORM.INSTALL_SECTION>Section-Install_JBCP.xml</THIS.PLATFORM.INSTALL_SECTION>
+		<THIS.PLATFORM.INSTALL_SECTION>Section-Install_TelScale.xml</THIS.PLATFORM.INSTALL_SECTION>
 		<author.email.alexandre>amendonca@redhat.com</author.email.alexandre>
 	</properties>
 	
@@ -41,7 +41,7 @@
 							<artifactItems>
 								<artifactItem>
 									<groupId>${pom.groupId}</groupId>
-									<artifactId>mobicents-diameter-jopr-plugin-docs-sources</artifactId>
+									<artifactId>mobicents-diameter-rhq-plugin-docs-sources</artifactId>
 									<version>${pom.version}</version>
 									<type>jar</type>
 									<overWrite>true</overWrite>
