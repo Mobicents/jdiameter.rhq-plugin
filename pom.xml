@@ -14,7 +14,7 @@
 
 	<packaging>jar</packaging>
 
-	<name>RHQ Mobicents Diameter Plugin for JBoss AS</name>
+	<name>Mobicents :: Diameter Tools :: RHQ Plugin</name>
 	<description>A plugin for managing Mobicents Diameter on JBoss Application Servers</description>
 
 	<properties>
