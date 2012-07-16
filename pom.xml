@@ -10,7 +10,7 @@
 
 	<groupId>org.mobicents.diameter.tools</groupId>
 	<artifactId>rhq-plugin</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>6.1.1-TelScale-SNAPSHOT</version>
 
 	<packaging>jar</packaging>
 
