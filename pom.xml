@@ -81,12 +81,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.rhq</groupId>
-			<artifactId>rhq-core-domain</artifactId>
-			<version>${rhq-version}</version>
-			<scope>provided</scope><!-- by PC -->
-		</dependency>
-		<dependency>
 			<!-- Update to org.mobicents.diameter once version > 1.4.0.FINAL -->
 			<groupId>org.mobicents.servers.diameter</groupId>
 			<artifactId>mobicents-diameter-mux-jar</artifactId>
