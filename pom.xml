@@ -87,19 +87,22 @@
 			<scope>provided</scope><!-- by PC -->
 		</dependency>
 		<dependency>
+			<!-- Update to org.mobicents.diameter once version > 1.4.0.FINAL -->
 			<groupId>org.mobicents.servers.diameter</groupId>
 			<artifactId>mobicents-diameter-mux-jar</artifactId>
 			<version>${mobicents.diameter.version}</version>
 		</dependency>
 		<dependency>
+			<!-- Update to org.mobicents.diameter once version > 1.4.0.FINAL -->
 			<groupId>org.mobicents.servers.diameter</groupId>
 			<artifactId>jdiameter-api</artifactId>
-		<version>${mobicents.jdiameter.version}</version>
+			<version>${mobicents.jdiameter.version}</version>
 		</dependency>
 		<dependency>
+			<!-- Update to org.mobicents.diameter once version > 1.4.0.FINAL -->
 			<groupId>org.mobicents.servers.diameter</groupId>
 			<artifactId>jdiameter-impl</artifactId>
-		<version>${mobicents.jdiameter.version}</version>
+			<version>${mobicents.jdiameter.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>gnu-getopt</groupId>
@@ -237,10 +240,9 @@
 		</profile>
 		<profile>
 			<id>maven-release</id>
-			<modules />
-			<!--modules>
+			<modules>
 				<module>docs</module>
-			</modules-->
+			</modules>
 			<build>
 				<plugins>
 					<plugin>
