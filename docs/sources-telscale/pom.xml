@@ -11,6 +11,8 @@
 	
 	<artifactId>rhq-plugin-docs-sources-telscale</artifactId>
 			
+	<name>Mobicents :: Diameter Tools :: RHQ Plugin Docs Sources TelScale</name>
+
 	<properties>
 		<THIS.PLATFORM>JBoss Communications</THIS.PLATFORM>
 		<JEE.PLATFORM>JBoss Enterprise Application Platform</JEE.PLATFORM>

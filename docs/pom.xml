@@ -4,19 +4,21 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
-		<groupId>org.mobicents</groupId>
-		<artifactId>mobicents-parent</artifactId>
-		<version>2.23-SNAPSHOT</version>
+		<groupId>org.mobicents.diameter.tools</groupId>
+		<artifactId>rhq-plugin-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	
 	<groupId>org.mobicents.diameter.tools</groupId>
 	<artifactId>rhq-plugin-docs</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	
+
 	<packaging>pom</packaging>
-	
+
+	<name>Mobicents :: Diameter Tools :: RHQ Plugin Docs</name>
+
 	<modules>
-		<module>sources</module>		
+		<module>sources</module>
 	</modules>
 
 	<profiles>
@@ -33,10 +35,10 @@
 			</modules>
 		</profile>
 		<profile>
-			<id>mobicents</id>			
+			<id>mobicents</id>
 			<modules>
 				<module>sources-mobicents</module>
-				<module>jdocbook-mobicents</module>				
+				<module>jdocbook-mobicents</module>
 			</modules>
 		</profile>
 		<profile>

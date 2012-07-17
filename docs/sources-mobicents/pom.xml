@@ -11,6 +11,8 @@
 	
 	<artifactId>rhq-plugin-docs-sources-mobicents</artifactId>	
 			
+	<name>Mobicents :: Diameter Tools :: RHQ Plugin Docs Sources Mobicents</name>
+
 	<properties>
 		<THIS.PLATFORM>Mobicents</THIS.PLATFORM>
 		<JEE.PLATFORM>JBoss Application Server</JEE.PLATFORM>

@@ -11,9 +11,7 @@
 	
 	<artifactId>rhq-plugin-docs-sources</artifactId>
 			
-	<properties>
-		
-	</properties>	
+	<name>Mobicents :: Diameter Tools :: RHQ Plugin Docs Sources</name>
 	
 	<build>
 		<resources>
