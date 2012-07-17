@@ -6,12 +6,12 @@
 	<parent>
 		<groupId>org.mobicents.diameter.tools</groupId>
 		<artifactId>rhq-plugin-parent</artifactId>
-		<version>6.1.1-TelScale-SNAPSHOT</version>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	
 	<groupId>org.mobicents.diameter.tools</groupId>
 	<artifactId>rhq-plugin-docs</artifactId>
-	<version>6.1.1-TelScale-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
