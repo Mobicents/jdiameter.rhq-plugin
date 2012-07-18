@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.mobicents.diameter.tools</groupId>
 		<artifactId>rhq-plugin-docs</artifactId>
-		<version>6.1.1.GA-TelScale</version>
+		<version>6.1.2-TelScale-SNAPSHOT</version>
 	</parent>
 	
 	<artifactId>rhq-plugin-docs-sources</artifactId>
