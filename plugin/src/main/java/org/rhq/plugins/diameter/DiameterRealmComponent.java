@@ -136,7 +136,7 @@ public class DiameterRealmComponent implements ResourceComponent<DiameterServerC
         appAcctId = mAppId.getSimple("acctAppId").getLongValue();
       }
       
-      diameterMBean._Network_Realms_addRealm(name, peers, appVendorId, appAcctId == null ? 0 : appAcctId, appAuthId == null ? 0 : appAuthId, localAction, dynamic, expTime);
+      diameterMBean._Network_Realms_addRealm(name, peers, appVendorId, appAcctId == null ? 0 : appAcctId, appAuthId == null ? 0 : appAuthId, localAction, null, dynamic, expTime);
       cur.setStatus(ConfigurationUpdateStatus.SUCCESS);
     }
     catch (Exception e) {

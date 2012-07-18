@@ -146,7 +146,7 @@ public class DiameterServerComponent implements DiameterPluginUtils, Measurement
         crr.setResourceKey(name);
         crr.setResourceName(name);
         
-        diameterMBean._Network_Realms_addRealm(name, peers, appVendorId, appAcctId, appAuthId, localAction, dynamic, expTime);
+        diameterMBean._Network_Realms_addRealm(name, peers, appVendorId, appAcctId, appAuthId, localAction, null, dynamic, expTime);
       }
       else if(crr.getResourceType().getName().equals("NetworkPeer")) {
         String name = configuration.getSimple("name").getStringValue();
