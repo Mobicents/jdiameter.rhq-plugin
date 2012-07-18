@@ -10,7 +10,7 @@
 
 	<artifactId>rhq-plugin-docs-jdocbook-mobicents</artifactId>
 
-	<name>Mobicents :: Diameter Tools :: RHQ Plugin Docs Sources Mobicents</name>
+	<name>Mobicents :: Diameter Tools :: RHQ Plugin Docs JDocBook Mobicents</name>
 
 	<packaging>jdocbook</packaging>
 	
