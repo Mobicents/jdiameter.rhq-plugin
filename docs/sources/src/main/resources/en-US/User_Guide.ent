@@ -14,6 +14,6 @@ If this final separator is missing, then the documentation will be wrong. -->
 <!ENTITY BOOK_ID "${THIS.PLATFORM}_DIAMETER_RHQ_Plugin_User_Guide">
 <!ENTITY THIS.PLATFORM.INSTALL_SECTION "${THIS.PLATFORM.INSTALL_SECTION}">
 <!ENTITY YEAR "2010">
-<!ENTITY HOLDER "Red Hat Inc">
+<!ENTITY HOLDER "TeleStax, Inc.">
 
 <!ENTITY AUTHOR_EMAIL_ALEXANDRE "${author.email.alexandre}">
