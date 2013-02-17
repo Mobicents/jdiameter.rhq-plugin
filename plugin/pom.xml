@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.mobicents.diameter.tools</groupId>
 		<artifactId>rhq-plugin-parent</artifactId>
-		<version>6.1.2-TelScale-SNAPSHOT</version>
+		<version>6.1.2.GA-TelScale</version>
 	</parent>
 
 	<artifactId>rhq-plugin</artifactId>
@@ -21,8 +21,8 @@
 		<jbossas.version>5.1.0.GA</jbossas.version>
 		<jopr-version>2.2.0.GA</jopr-version>
 		<rhq-version>1.4.0.B01</rhq-version>
-		<mobicents.jdiameter.version>6.1.1.GA-TelScale</mobicents.jdiameter.version>
-		<mobicents.diameter.version>6.1.1.GA-TelScale</mobicents.diameter.version>
+		<mobicents.jdiameter.version>6.1.2.GA-TelScale</mobicents.jdiameter.version>
+		<mobicents.diameter.version>6.1.2.GA-TelScale</mobicents.diameter.version>
 		<getopt.version>1.0.13</getopt.version>
 	</properties>
 
