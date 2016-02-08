@@ -130,6 +130,7 @@ public class DiameterServerComponent implements DiameterPluginUtils, Measurement
         }
         
         String localAction = configuration.getSimple("localAction").getStringValue();
+        String agentConfiguration = configuration.getSimple("agentConfiguration").getStringValue();
         Boolean dynamic = configuration.getSimple("dynamic").getBooleanValue();
         Integer expTime = configuration.getSimple("expTime").getIntegerValue();
 
@@ -146,7 +147,7 @@ public class DiameterServerComponent implements DiameterPluginUtils, Measurement
         crr.setResourceKey(name);
         crr.setResourceName(name);
         
-        diameterMBean._Network_Realms_addRealm(name, peers, appVendorId, appAcctId, appAuthId, localAction, dynamic, expTime);
+        diameterMBean._Network_Realms_addRealm(name, peers, appVendorId, appAcctId, appAuthId, localAction, agentConfiguration, dynamic, expTime);
       }
       else if(crr.getResourceType().getName().equals("NetworkPeer")) {
         String name = configuration.getSimple("name").getStringValue();

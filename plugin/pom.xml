@@ -21,8 +21,7 @@
 		<jbossas.version>5.1.0.GA</jbossas.version>
 		<jopr-version>2.2.0.GA</jopr-version>
 		<rhq-version>1.4.0.B01</rhq-version>
-		<restcomm.jdiameter.version>1.5.4.1-build415</restcomm.jdiameter.version>
-		<restcomm.diameter.version>1.7.0.77</restcomm.diameter.version>
+		<restcomm.jdiameter.version>1.7.0.77</restcomm.jdiameter.version>
 		<getopt.version>1.0.13</getopt.version>
 	</properties>
 
@@ -82,7 +81,7 @@
 			<!-- Update to org.mobicents.diameter once version > 1.4.0.FINAL -->
 			<groupId>org.mobicents.diameter</groupId>
 			<artifactId>restcomm-diameter-mux-jar</artifactId>
-			<version>${restcomm.diameter.version}</version>
+			<version>${restcomm.jdiameter.version}</version>
 		</dependency>
 		<dependency>
 			<!-- Update to org.mobicents.diameter once version > 1.4.0.FINAL -->

@@ -123,6 +123,7 @@ public class DiameterRealmComponent implements ResourceComponent<DiameterServerC
       }
       
       String localAction = configuration.getSimple("localAction").getStringValue();
+      String agentConfiguration = configuration.getSimple("agentConfiguration").getStringValue();
       Boolean dynamic = configuration.getSimple("dynamic").getBooleanValue();
       Integer expTime = configuration.getSimple("expTime").getIntegerValue();
 
@@ -136,7 +137,7 @@ public class DiameterRealmComponent implements ResourceComponent<DiameterServerC
         appAcctId = mAppId.getSimple("acctAppId").getLongValue();
       }
       
-      diameterMBean._Network_Realms_addRealm(name, peers, appVendorId, appAcctId == null ? 0 : appAcctId, appAuthId == null ? 0 : appAuthId, localAction, dynamic, expTime);
+      diameterMBean._Network_Realms_addRealm(name, peers, appVendorId, appAcctId == null ? 0 : appAcctId, appAuthId == null ? 0 : appAuthId, localAction, agentConfiguration, dynamic, expTime);
       cur.setStatus(ConfigurationUpdateStatus.SUCCESS);
     }
     catch (Exception e) {
