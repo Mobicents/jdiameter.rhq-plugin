@@ -22,7 +22,7 @@
 		<jopr-version>2.2.0.GA</jopr-version>
 		<rhq-version>1.4.0.B01</rhq-version>
 		<restcomm.jdiameter.version>1.5.4.1-build415</restcomm.jdiameter.version>
-		<restcomm.diameter.version>1.2.1.GA</restcomm.diameter.version>
+		<restcomm.diameter.version>1.7.0.77</restcomm.diameter.version>
 		<getopt.version>1.0.13</getopt.version>
 	</properties>
 
