@@ -9,16 +9,16 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>rhq-plugin-docs-sources-mobicents</artifactId>	
+	<artifactId>rhq-plugin-docs-sources-restcomm</artifactId>	
 			
-	<name>Mobicents :: Diameter Tools :: RHQ Plugin Docs Sources Mobicents</name>
+	<name>Restcomm :: Diameter Tools :: RHQ Plugin Docs Sources Restcomm</name>
 
 	<properties>
-		<THIS.PLATFORM>Mobicents</THIS.PLATFORM>
+		<THIS.PLATFORM>Restcomm</THIS.PLATFORM>
 		<JEE.PLATFORM>JBoss Application Server</JEE.PLATFORM>
 		<MANAGEMENT.PLATFORM>RHQ</MANAGEMENT.PLATFORM>
 		<author.email.alexandre>brainslog (at) gmail.com</author.email.alexandre>
-		<THIS.PLATFORM.INSTALL_SECTION>Section-Install_Mobicents.xml</THIS.PLATFORM.INSTALL_SECTION>
+		<THIS.PLATFORM.INSTALL_SECTION>Section-Install_Restcomm.xml</THIS.PLATFORM.INSTALL_SECTION>
 	</properties>
 	
 	<build>

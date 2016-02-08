@@ -15,7 +15,7 @@
 
 	<packaging>pom</packaging>
 
-	<name>Mobicents :: Diameter Tools :: RHQ Plugin Docs</name>
+	<name>Restcomm :: Diameter Tools :: RHQ Plugin Docs</name>
 
 	<modules>
 		<module>sources</module>
@@ -28,17 +28,17 @@
 				<activeByDefault>true</activeByDefault>
 			</activation>
 			<modules>
-				<module>sources-mobicents</module>
+				<module>sources-restcomm</module>
 				<module>sources-telscale</module>
-				<module>jdocbook-mobicents</module>
+				<module>jdocbook-restcomm</module>
 				<module>jdocbook-telscale</module>
 			</modules>
 		</profile>
 		<profile>
-			<id>mobicents</id>
+			<id>restcomm</id>
 			<modules>
-				<module>sources-mobicents</module>
-				<module>jdocbook-mobicents</module>
+				<module>sources-restcomm</module>
+				<module>jdocbook-restcomm</module>
 			</modules>
 		</profile>
 		<profile>

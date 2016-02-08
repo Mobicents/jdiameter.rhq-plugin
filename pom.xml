@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.mobicents</groupId>
 		<artifactId>mobicents-parent</artifactId>
-		<version>2.23-SNAPSHOT</version>
+		<version>2.27.21</version>
 	</parent>
 
 	<groupId>org.mobicents.diameter.tools</groupId>
@@ -14,8 +14,8 @@
 
 	<packaging>pom</packaging>
 
-	<name>Mobicents :: Diameter Tools :: RHQ Plugin Parent</name>
-	<description>A plugin for managing Mobicents Diameter on JBoss Application Servers</description>
+	<name>Restcomm :: Diameter Tools :: RHQ Plugin Parent</name>
+	<description>A plugin for managing Restcomm Diameter on JBoss Application Servers</description>
 
 	<modules>
 		<module>plugin</module>

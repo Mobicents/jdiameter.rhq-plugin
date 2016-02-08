@@ -11,7 +11,7 @@
 
 	<artifactId>rhq-plugin-docs-jdocbook-telscale</artifactId>
 
-	<name>Mobicents :: Diameter Tools :: RHQ Plugin Docs JDocBook TelScale</name>
+	<name>restcomm :: Diameter Tools :: RHQ Plugin Docs JDocBook TelScale</name>
 
 	<packaging>jdocbook</packaging>
 	
