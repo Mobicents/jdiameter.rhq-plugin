@@ -21,6 +21,15 @@
 		<module>sources</module>
 	</modules>
 
+	<!-- Try to override version 3.3.1 which is not present in central -->
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.core</groupId>
+			<artifactId>resources</artifactId>
+			<version>3.3.0-v20070604</version>
+		</dependency>
+	</dependencies>
+
 	<profiles>
 		<profile>
 			<id>all</id>
